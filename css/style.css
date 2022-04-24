@@ -1,0 +1,96 @@
+body{
+    background: url("../img/fon4.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Arial', Times, serif  ;
+    line-height: 1.5;
+    font-size: 20px;
+   
+    
+}
+
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+   
+}
+
+.botton {
+
+    
+	color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #3e3e3e; /* Цвет фона */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+	}
+	.botton:active {
+	background-color: hsl(0, 100%, 59%); /* Цвет кнопки при нажатии */
+	}
+	.botton:hover {
+	background-color: #f92e2e; /* Цвет кнопки при наведении курсора */
+	}
+
+
+
+.mainPage{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255)
+}
+
+.mPhoto{
+    text-align: center;
+    border-radius: 6%;
+   
+    padding-left: 5px; 
+    padding-bottom: 5px;
+}
+
+.navR{
+    text-align: right;
+}
+
+.hPhoto{
+    border-radius: 15%;
+    float: right; 
+    padding-left: 10px; 
+    padding-bottom: 10px;
+}
+
+.hText{
+    width: 90%; 
+    margin: 30px auto ;
+ padding: 20px;
+ 
+ 
+    background-color:
+     rgb(0, 0, 0);
+    box-shadow: 0 20px 25px
+    rgb(89, 89, 89);
+    border-radius: 20px;
+}
+
+.standartText{
+    font-size: 25px;
+    color: rgb(255, 255, 255)
+}
+
+.texL{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(255, 255, 255)
+}
+
+.texC{
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.texR{
+    text-align: right;
+    color: rgb(255, 255, 255)
+}
