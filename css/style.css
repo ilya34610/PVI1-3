@@ -19,7 +19,7 @@ body{
 
 .botton {
 
-    
+    text-align: center;
 	color: #fff;
 	user-select: none; /* Убираем текстовое выделение */
 	text-decoration: none;	/* Убираем подчеркивание */
