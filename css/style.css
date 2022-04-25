@@ -9,6 +9,20 @@ body{
     
 }
 
+footer {
+  display: block;
+}
+
+p{
+    text-indent: 30px;
+  }
+
+hr {
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    border-style:inset;
+    border-width: 0.5px;   
+}
 
 .title{
     text-align: center;
@@ -36,9 +50,10 @@ body{
 	background-color: #f92e2e; /* Цвет кнопки при наведении курсора */
 	}
 
-
+  
 
 .mainPage{
+   
     text-align: center;
     font-size: 30px;
     color: rgb(255, 255, 255)
@@ -52,23 +67,43 @@ body{
     padding-bottom: 5px;
 }
 
-.navR{
+.navigationR{
+    text-align: right;
+    
+}
+
+.photoR{
     text-align: right;
 }
 
-.hPhoto{
+.historyPhoto{
     border-radius: 15%;
     float: right; 
     padding-left: 10px; 
     padding-bottom: 10px;
 }
 
-.hText{
+.historyBlock{
+    
     width: 90%; 
     margin: 30px auto ;
  padding: 20px;
  
+ background-size: auto auto;
+    background-color:
+     rgb(0, 0, 0);
+    box-shadow: 0 20px 25px
+    rgb(89, 89, 89);
+    border-radius: 20px;
+}
+
+.productsBlock{
+    height: 450px;
+    width: 90%; 
+    margin: 30px auto ;
+ padding: 20px;
  
+ background-size: auto auto;
     background-color:
      rgb(0, 0, 0);
     box-shadow: 0 20px 25px
@@ -81,8 +116,14 @@ body{
     color: rgb(255, 255, 255)
 }
 
-.texL{
+.mainText{
     font-size: 30px;
+    text-align: left;
+    color: rgb(255, 255, 255)
+}
+
+.texL{
+    
     text-align: left;
     color: rgb(255, 255, 255)
 }
