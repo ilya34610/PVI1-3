@@ -17,15 +17,17 @@ body{
    
 }
 
-.bottonn {
+.botton {
 
-    text-align: center;
-	color: #fff;
-	user-select: none; /* Убираем текстовое выделение */
-	text-decoration: none;	/* Убираем подчеркивание */
-	outline: none; /* Убираем контур вокруг ссылки */
-	background-color: #3e3e3e; /* Цвет фона */
-	padding: 1em 2em; /* Отступ от текста до рамки */
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+	height: 50px;
+    line-height: 50px;
+    position: relative;
+    border: 1px solid white;
+    padding: 0 1rem;
+    background-color: #3e3e3e;
 	}
 	.botton:active {
 	background-color: hsl(0, 100%, 59%); /* Цвет кнопки при нажатии */
