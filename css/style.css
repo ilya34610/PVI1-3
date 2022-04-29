@@ -103,6 +103,17 @@ textarea {
         cursor: pointer;
     }
 
+    input[type=file] {
+        width: 400px;
+        background-color: #404040;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
     input[type=reset] {
         width: 50;
         background-color: #404040;
@@ -112,6 +123,11 @@ textarea {
         border: none;
         border-radius: 4px;
         cursor: pointer;
+    }
+
+    .special {
+        color: rgb(246, 0, 0);
+        font-weight: bold;
     }
 
 .mainPage{
