@@ -13,11 +13,16 @@
 
         <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
     
+        
+        
     </head>
 
 
     <body>
     <header>
+
+        
+
         <h1 class= "title"> Guitar shop</h1>
 
         <hr size="10" color="red" >
@@ -45,7 +50,42 @@
 
     <hr size="3" color="white" >
 
+<form>
+    <h2 class="standartText">Как мы можем с вами связаться?</h2>
+    <input type="text" id="contact" name="contact" required data-reg="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Email/Телефон">
 
+<h2 class="standartText">Товар</h2>
+
+<select name="product" id="guitar" required>
+    <option value="choise">Выберите вариант</option>
+    <option value="HC 06">Hohner HC 06</option>
+    <option value="ER2">HOHNER ER2</option>
+    <option value="HW220 TBK">HOHNER HW220 TBK</option>
+    <option value="ER1">HOHNER ER1</option>
+</select>
+
+<h2 class="standartText">Коментарии/предпочтения</h2>
+<textarea name="text" placeholder="Ввод не обязателен"></textarea>
+
+<h2 class="standartText">Дополнительно к покупке</h2>
+<input type="radio" id="choise1" value="choise1">
+<label for="contactChoice1" style="color: white;">Струны</label>
+<input type="radio" id="choise1" value="choise2">
+<label for="contactChoice2" style="color: white;">Тюнер</label>
+<input type="radio" id="choise1" value="choise3">
+<label for="contactChoice3" style="color: white;">Кападастер</label>
+<input type="radio" id="choise1" value="choise4">
+<label for="contactChoice4" style="color: white;">Чехол</label>
+
+
+<p ><input  type="submit" value="Отправить" /></p>
+
+
+<p class="texR"><input type="reset" value="Очистить поля"></p>
+
+
+
+</form>
 
 
 
